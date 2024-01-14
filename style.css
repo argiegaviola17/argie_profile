@@ -77,8 +77,8 @@ h1 {
     margin-bottom: 40px;
 }
 .social_icon {
-    width: 50px;
-    height: 50px;
+    width: 5em;
+    height: 5em;
     /* https://codepen.io/sosuke/pen/Pjoqqp */
     filter: invert(48%) sepia(73%) saturate(1568%) hue-rotate(328deg) brightness(92%) contrast(111%);
     margin-right: 30px;
