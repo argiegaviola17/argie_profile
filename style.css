@@ -110,6 +110,22 @@ ul {
         object-fit: cover;
         flex-shrink: 1;
     }
+    h1{
+        font-size: 9em;
+    }
+    .welcome_title{
+        font-size: 4em;
+    }
+    .position_info{
+        font-size: 4em;
+    }
+    .profile_btns{
+        font-size: 5em;
+    }
+    .social_icon{
+        width: 10em;
+        height: 10em;
+    }
 }
 @media (max-width: 753px) {
     .flex-container{
