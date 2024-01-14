@@ -1,0 +1,87 @@
+body {
+     
+    font-family: 'Open Sans', sans-serif;
+
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.profile_info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 200px;
+}
+.profile_img {
+    height: 100vh;
+}
+
+span {
+    color: white;
+}
+h1 {
+    color: #f85646;
+    font-weight: 700;
+    font-size: 6rem;
+    margin: 0;
+}
+.welcome_title{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.position_info{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.profile_btns{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.contact_btn {
+    font-size: 1rem;
+    background-color: #f85646;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    padding-right: 33px;
+    padding-left: 33px;
+    font-weight: 700;
+}
+.download_resume_btn{
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid #f85646;
+    color: #f85646;
+    text-align: left;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-weight: 700;
+}
+.social_icon_ul {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.social_icon {
+    width: 50px;
+    height: 50px;
+    /* https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(48%) sepia(73%) saturate(1568%) hue-rotate(328deg) brightness(92%) contrast(111%);
+    margin-right: 30px;
+
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
