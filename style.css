@@ -118,6 +118,8 @@ ul {
     height: auto;
     align-items: baseline;
     justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .resume_wrapper {
     background-color: #1e1e1e;
@@ -151,6 +153,37 @@ ul {
     color: #9f9f9f;
 }
 /* end resume*/
+
+/*about me*/
+.about_me{
+    background-color: black;
+    height: auto; 
+    align-items: center;
+    color:#db857d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about_me  img {
+    width: 400px;
+    height: 400px;
+}
+
+.about_me .img_wrapper {
+    width: auto;
+    height: auto;
+    flex-basis: 500px;
+}
+.about_me  .details {
+    width: 600px;
+    flex-basis: 500px;
+    /* flex-grow: 0;
+    flex-shrink: 1; */
+}
+ 
+.details p,h2 {
+    margin: 0;
+}
+/*end about me*/
 
 @media   (max-width: 1420px)  {
     .flex-container{
