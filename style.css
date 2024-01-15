@@ -121,6 +121,9 @@ ul {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.my_resume h2 {
+    margin-bottom: 20px;
+}
 .resume_wrapper {
     background-color: #1e1e1e;
      
@@ -184,6 +187,12 @@ ul {
     margin: 0;
 }
 /*end about me*/
+
+.footer{
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 @media   (max-width: 1420px)  {
     .flex-container{
