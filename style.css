@@ -1,3 +1,4 @@
+/* https://colorhunt.co/palette/ff9843ffdd9586a7fc3468c0 */
 body {
      
     font-family: 'Open Sans', sans-serif;
@@ -5,15 +6,44 @@ body {
     padding: 0;
     font-size: 15px;
 }
+span {
+    color: white;
+}
+h1 {
+    color: #f85646;
+    font-weight: 700;
+    font-size: 6em;
+    margin: 0;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+    margin: 0;
+}
+
 .flex-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
+   
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
 }
 
+
+/*profile*/
+.profile{
+    background-color: black;
+}
 .profile_info {
     display: flex;
     flex-direction: column;
@@ -25,15 +55,7 @@ body {
     height: 100vh;    
 }
 
-span {
-    color: white;
-}
-h1 {
-    color: #f85646;
-    font-weight: 700;
-    font-size: 6em;
-    margin: 0;
-}
+
 .welcome_title{
     font-weight: 700;
     font-size: 2em;
@@ -84,13 +106,49 @@ h1 {
     margin-right: 30px;
 
 }
-ul {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
+
+/*end profile*/
+
+/* resume */
+.my_resume {
+    /* flex-direction: column; */
+    background-color: #121212;
+    height: auto;
+    align-items: baseline;
+    justify-content: space-evenly;
 }
+.resume_wrapper {
+    background-color: #1e1e1e;
+    max-width: 600px;
+}
+.resume_item{
+    border-left: 3px solid #004294;
+    position: relative;
+    padding: 40px;
+    border-bottom: 1px solid #313131;
+     
+}
+.resume_arrow:before {
+    display: block;
+    background-color: #004294;
+    position:absolute;
+    height: 16px;
+    width: 16px;
+    content: "";
+    left: 0;
+}
+.resume_arrow:after {
+    border: 8px solid transparent;
+    border-left-color: #004294;
+    left: 16px;
+    position: absolute;
+    display: block;
+    content: "";
+}
+.resume_details{
+    color: #9f9f9f;
+}
+/* end resume*/
 
 @media   (max-width: 1420px)  {
     .flex-container{
