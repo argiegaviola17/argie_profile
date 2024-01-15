@@ -236,6 +236,9 @@ ul {
     .resume_item {
         width: 800px;
     }
+    .my_resume h2 {
+        margin-top: 20px;
+    }
     /* end resume */
 }
 @media (max-width: 753px) {
