@@ -119,7 +119,7 @@ ul {
 }
 .resume_wrapper {
     background-color: #1e1e1e;
-    max-width: 600px;
+     
 }
 .resume_item{
     border-left: 3px solid #004294;
@@ -184,6 +184,15 @@ ul {
         width: 10em;
         height: 10em;
     }
+
+    /* resume */
+    .my_resume {
+        align-items: center;
+    }
+    .resume_item {
+        width: 800px;
+    }
+    /* end resume */
 }
 @media (max-width: 753px) {
     .flex-container{
